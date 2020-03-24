@@ -4,7 +4,7 @@
 
         </title>
     </head>
-    <body>
+    <body style="background-color: grey;">
         <h1 style="background-color: yellow; text-align: center;">hola mundo</h1>
         <h2 style="background-color: orange; text-align: center;">smaller hola mundo</h2>
         <h3 style="background-color: red; text-align: center;"><u>smaller</u> <em>smaller</em> hola mundo</h3>
@@ -22,7 +22,33 @@
                 <li>mi escritorio</li>
             </ul>
         </div>     
-        <input>
-        <button>Click</button>
+        <div style="align-self: center;"> 
+            <form>
+            <h2>Saludame</h2>
+            <input type="text" placeholder="Tu nombre" name="usuario">
+            </br>
+            <br>
+            <textarea type="text" placeholder="Saluda" name="saludo"></textarea>
+            <br>
+            <br>
+            Female
+            <input type="radio" name="sexo" value="Female">
+            Male
+            <input type="radio" name="sexo" value="Male">
+            Sexe
+            <input type="radio" name="sexo" value="Sexe">
+            <br>
+            <label>
+            Como te sentis?
+                <select name="estado">
+                    <option>Bien</option>
+                    <option>Ninguno</option>
+                    <option>Mal</option>
+                </select>
+            <br>
+            <input type="submit" value="Boton">
+            </form>
+        </div>
+       
     </body>
 </html>
