@@ -1,0 +1,25 @@
+
+body {
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    max-height: auto;
+    padding: 1%;
+    height: 98%;
+    width: 14.6666667%;
+    border: 0em inset black;
+    float: left;
+}
+
+#last {
+    max-width: auto;
+}
+
+#bottom {
+    top: 98%;
+    float: right;
+}
